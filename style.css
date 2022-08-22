@@ -24,7 +24,7 @@ p {
     font-size: 20px;
     background-color: #cff8fb;
     border: 0;
-    border-right: 3px solid #ddd;
+    border-right: 3px solid rgb(255, 241, 205) ;
     cursor: pointer;
 }
 
@@ -38,13 +38,14 @@ p {
 
 .tabs__nav-btn.active {
     background-color: #28c0fc;
-    /* border-right-color: #28c0fc; */
+    border-right-color: #28c0fc;
     color: #fff;
 }
 
 .tabs__content {
     padding: 30px;
     background-color: #fff;
+    border-radius: 0px 0px 3px 3px;
 }
 
 .tabs__item {
